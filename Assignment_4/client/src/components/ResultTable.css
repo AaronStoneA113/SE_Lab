@@ -1,0 +1,104 @@
+.table-wrapper {
+  padding: 28px 32px;
+  overflow-x: auto;
+}
+
+.result-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+}
+
+.result-table thead th {
+  background: var(--bg-input);
+  color: var(--text-secondary);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-weight: 600;
+  padding: 13px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.result-table tbody td {
+  padding: 12px 14px;
+  font-size: 14px;
+  color: var(--text-primary);
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.result-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.result-table tbody tr:hover {
+  background: var(--bg-card-hover);
+}
+
+.row-failed {
+  background: rgba(255, 92, 106, 0.04);
+}
+
+.row-failed:hover {
+  background: rgba(255, 92, 106, 0.08) !important;
+}
+
+.col-index {
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.col-id {
+  font-weight: 600;
+  color: var(--accent);
+  font-size: 13px;
+  letter-spacing: 0.3px;
+}
+
+.col-name {
+  font-weight: 500;
+}
+
+.col-num {
+  text-align: right;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.mark-pass {
+  color: var(--green);
+  font-weight: 600;
+  text-align: right;
+}
+
+.mark-fail {
+  color: var(--red);
+  font-weight: 700;
+  text-align: right;
+  background: var(--red-dim);
+  border-radius: 5px;
+}
+
+.grade-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "Syne", sans-serif;
+}
+
+.badge-o    { background: var(--green-dim);  color: var(--green); }
+.badge-aplus { background: var(--blue-dim);   color: var(--blue); }
+.badge-a    { background: var(--accent-dim); color: var(--accent); }
+.badge-bplus { background: var(--purple-dim); color: var(--purple); }
+.badge-b    { background: var(--yellow-dim); color: var(--yellow); }
+.badge-c    { background: var(--orange-dim); color: var(--orange); }
+.badge-d    { background: rgba(232,168,56,0.12); color: #e8a838; }
+.badge-f    { background: var(--red-dim);    color: var(--red); }

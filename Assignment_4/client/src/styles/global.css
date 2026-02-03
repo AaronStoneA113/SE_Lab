@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Syne:wght@600;700&display=swap");
+
+:root {
+  --bg-base: #0f1117;
+  --bg-card: #161923;
+  --bg-card-hover: #1c2030;
+  --bg-input: #1a1f2e;
+  --border: #2a3042;
+  --text-primary: #eef0f4;
+  --text-secondary: #7a8299;
+  --accent: #6c63ff;
+  --accent-dim: rgba(108, 99, 255, 0.12);
+  --green: #3dd68c;
+  --green-dim: rgba(61, 214, 140, 0.12);
+  --red: #ff5c6a;
+  --red-dim: rgba(255, 92, 106, 0.12);
+  --yellow: #f5c542;
+  --yellow-dim: rgba(245, 197, 66, 0.12);
+  --blue: #42b4f5;
+  --blue-dim: rgba(66, 180, 245, 0.12);
+  --purple: #b06cff;
+  --purple-dim: rgba(176, 108, 255, 0.12);
+  --orange: #ff8c42;
+  --orange-dim: rgba(255, 140, 66, 0.12);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: "Syne", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-base);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}

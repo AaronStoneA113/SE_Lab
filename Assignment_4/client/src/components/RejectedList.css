@@ -1,0 +1,79 @@
+.rejected-section {
+  padding: 0 32px 32px;
+}
+
+.rejected-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.rejected-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--red);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+.rejected-count {
+  background: var(--red-dim);
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 9px;
+  border-radius: 10px;
+}
+
+.rejected-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rejected-card {
+  background: var(--bg-card);
+  border: 1px solid rgba(255, 92, 106, 0.25);
+  border-radius: 10px;
+  padding: 14px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rejected-raw {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rejected-raw-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  min-width: 36px;
+}
+
+.rejected-raw-value {
+  font-size: 13px;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.rejected-errors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.rejected-error-tag {
+  background: var(--red-dim);
+  color: var(--red);
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-weight: 500;
+}

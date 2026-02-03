@@ -1,0 +1,72 @@
+[
+  {
+    "id": "STU001A",
+    "name": "Abhishek Roy",
+    "marks": [88, 72, 91, 65, 78]
+  },
+  {
+    "id": "STU002B",
+    "name": "Priya Sharma",
+    "marks": [95, 89, 92, 97, 94]
+  },
+  {
+    "id": "STU003C",
+    "name": "Rahul Mehta",
+    "marks": [45, 62, 58, 70, 55]
+  },
+  {
+    "id": "STU004D",
+    "name": "Sneha Patel",
+    "marks": [78, 82, 75, 80, 85]
+  },
+  {
+    "id": "STU005E",
+    "name": "Kartik Nair",
+    "marks": [60, 55, 63, 58, 61]
+  },
+  {
+    "id": "STU006F",
+    "name": "Ananya Das",
+    "marks": [90, 88, 92, 85, 91]
+  },
+  {
+    "id": "STU007G",
+    "name": "Vikram Singh",
+    "marks": [52, 48, 55, 50, 53]
+  },
+  {
+    "id": "STU008H",
+    "name": "Nandini Rao",
+    "marks": [67, 71, 68, 73, 69]
+  },
+  {
+    "id": "STU001A",
+    "name": "Duplicate ID",
+    "marks": [70, 75, 72, 68, 74]
+  },
+  {
+    "id": "STU@09!",
+    "name": "BadID User",
+    "marks": [60, 65, 70, 55, 62]
+  },
+  {
+    "id": "STU010J",
+    "name": "Name123 Bad",
+    "marks": [80, 75, 78, 82, 79]
+  },
+  {
+    "id": "STU011K",
+    "name": "OutOfRange",
+    "marks": [105, 60, 70, 80, 90]
+  },
+  {
+    "id": "STU012L",
+    "name": "Aisha Khorana",
+    "marks": [73, 79, 71, 76, 74]
+  },
+  {
+    "id": "STU013M",
+    "name": "Siddharth Gupta",
+    "marks": [56, 52, 58, 54, 57]
+  }
+]
