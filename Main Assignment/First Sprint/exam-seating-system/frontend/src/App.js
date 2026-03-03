@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Exam Hall Seating Allocation System</h1>
-        <p>Sprint 1: Core Allocation Functionality</p>
+        <p>Automated seat allocation with 8-way constraint enforcement</p>
       </header>
 
       <div className="tabs">
@@ -34,7 +34,7 @@ function App() {
       </div>
 
       <footer className="App-footer">
-        <p>Developed by: Abhishek Roy (24MCMB07) | University of Hyderabad</p>
+        <p>University of Hyderabad | MTech IT | Software Engineering Lab</p>
       </footer>
     </div>
   );
